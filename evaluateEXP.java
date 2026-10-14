@@ -4,8 +4,8 @@ public class evaluateEXP {
 		while (i < n) {
 			if (i%2==0) {posneg=1;} else {posneg=-1;}
 			termvalue = posneg*Math.pow(x, 2*i)/factorial;
-			factorial *= i;
 			i++;
+			factorial *= i;
 			sum += termvalue;
 		}
 		return sum;
