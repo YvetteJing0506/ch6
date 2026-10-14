@@ -1,16 +1,15 @@
 public class findSqrt {
-
-	public static double squareRoot (double a) {
-		double x = a/2;
-		double Xn = (x + a/x)/2;
-
-		while () {
-			System.out.println();
-			
-		}
+	public static double squareRoot (double i) {
+		double x = i/2; double xn = (x + i/x)/2;
+		System.out.println("guess: " + x);
+		while (Math.abs(x-xn)>=0.0001) {
+			System.out.println("trial: " + xn);
+			x=xn;
+			xn = (xn + i/xn)/2;
+		} return xn;
 	}
 	
-	public static void main (String[] args) {
-		squareRoot(9);
+	public static void main(String[] args) {
+		System.out.println("final answer" + squareRoot(9));
 	}
 }
