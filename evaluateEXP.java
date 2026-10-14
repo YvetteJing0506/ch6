@@ -1,5 +1,5 @@
 public class evaluateEXP {
-	public static double gauss(double x, double n) {
+	public static double gauss(double x, int n) {
 		double sum = 0; double termvalue; int i = 0; int posneg; int divideby = 1; int power = 0;
 		while (i < n) {
 			//term is positive or negative
