@@ -16,6 +16,6 @@ public class evaluateEXP {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("sum equals = " + gauss(10, 23));
+		System.out.println("sum equals = " + gauss(5, 6));
 	}
 }
