@@ -8,7 +8,7 @@ public class Scrabble {
 		} return true;
 	}
 	
-	//I dont undertsnad the logic
+	//I dont understand the logic
 	//what I did before: 
 	//int r = 0 //which records times that the tile include letter in word
 	//if (countChar(t,t,charAt(i))>=countChar(w,t.charAt(i))) {
